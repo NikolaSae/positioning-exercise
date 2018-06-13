@@ -1,14 +1,16 @@
-body {
+body * {
 	margin: 0;
+	box-sizing: border-box;
 }
 
 .hero {
 	height: 500px;
 	width: 800px;
 	margin: 0 auto;
-	background-image: url('https://cdn.pixabay.com/photo/2013/04/06/11/50/image-editing-101040_960_720.jpg');
+	background-image: url("finished.png");
 	background-size: cover;
 	background-position: center;
+	position: relative;
 }
 
 .hero * {
@@ -18,4 +20,34 @@ body {
 .hero .goat {
 	font-size: 150%;
 	background-color: green;
+}
+.topLeft {
+	background-color: red;
+	top: 10px;
+	left: 10px;
+	position: absolute;
+}
+.topRight {
+	background-color: red;
+	top: 10px;
+	right: 10px;
+	position: absolute;
+}
+.bottomRight {
+	background-color: red;
+	bottom: 10px;
+	right: 10px;
+	position: absolute;
+}
+.bottomLeft {
+	background-color: red;
+	bottom: 10px;
+	left: 10px;
+	position: absolute;
+}
+.goat {
+	color: red;
+	top: 65%;
+	left: 54%;
+	position: absolute;
 }
