@@ -6,19 +6,15 @@ body {
 	color: white;
 	padding: 10px;
 	border-radius: 20px;
+	position: sticky;
+  	position: -moz-sticky;
+  	top: 2px;
 }
 
 .social {
 	padding: 5px;
 	background-color: blue;
 	color: white;
-}
-.arrow {
-  position: sticky;
-  position: -moz-sticky;
-  top: 2px;
-}
-.social {
 	position: sticky;
 	position: -moz-sticky;
 	top: 55px;
