@@ -16,10 +16,11 @@ body {
 .arrow {
   position: sticky;
   position: -moz-sticky;
-  top: 5px;
+  top: 2px;
 }
 .social {
 	position: sticky;
 	position: -moz-sticky;
-	top: 50px;
+	top: 55px;
+	left: 30px;
 }
