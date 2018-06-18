@@ -1,3 +1,6 @@
+body {
+	position: relative;
+}
 .arrow {
 	background-color: green;
 	color: white;
@@ -9,4 +12,14 @@
 	padding: 5px;
 	background-color: blue;
 	color: white;
+}
+.arrow {
+  position: sticky;
+  position: -moz-sticky;
+  top: 5px;
+}
+.social {
+	position: sticky;
+	position: -moz-sticky;
+	top: 50px;
 }
